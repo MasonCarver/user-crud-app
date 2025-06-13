@@ -1,4 +1,4 @@
-`# User CRUD App with Express and Vanilla JavaScript
+# User CRUD App with Express and Vanilla JavaScript
 
 This is a simple full-stack web application that allows users to be created, listed, and deleted. It's built using Node.js, Express, and plain HTML/CSS/JavaScript.
 
@@ -18,31 +18,46 @@ This is a simple full-stack web application that allows users to be created, lis
 - CSS
 - JavaScript (ES6)
 
-## Project Structure`
+## Project Structure
 
+```
 project-folder/
-├── index.js # Express server with REST API routes
+├── index.js              # Express server with REST API routes
 └── public/
-├── index.html # Frontend UI
-├── script.js # JavaScript to handle user interactions and API calls
-└── styles.css # Styles for the UI
+    ├── index.html        # Frontend UI
+    ├── script.js         # JavaScript to handle user interactions and API calls
+    └── styles.css        # Styles for the UI
+```
 
-`## Getting Started`
+## Getting Started
 
-`To run the project locally: `
+To run the project locally:
 
-`1. Clone this repository:`
+1. Clone this repository:
 
-git clone https://github.com/MasonCarver/user-crud-app.git
-cd user-crud-app
+   ```
+   git clone https://github.com/MasonCarver/user-crud-app.git
+   cd user-crud-app
+   ```
 
-`2. Install dependencies:` 
-npm install
+2. Install dependencies:
 
-5. Start the server: node index.js
+   ```
+   npm install
+   ```
 
-6. Open your browser and visit: http://localhost:3000
-  
+3. Start the server:
+
+   ```
+   node index.js
+   ```
+
+4. Open your browser and visit:
+
+   ```
+   http://localhost:3000
+   ```
+
 ## Possible Future Improvements
 
 - Add edit functionality for users
